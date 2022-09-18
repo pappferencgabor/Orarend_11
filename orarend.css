@@ -1,0 +1,41 @@
+body{
+    margin-top: 20px;
+    background-color: rgb(141, 141, 141);
+}
+table {
+    width: 70%;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+td, th {
+    padding: 6px;
+}
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.tanora {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+.terem {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.tanar {
+    color: #e2e2e2;
+    font-size: 13px;
+}
+
+.bg-sky {background-color: #009ca1}
+.bg-orange {background-color: #e95601}
+.bg-green {background-color: #5bbd2a}
+.bg-yellow {background-color: #ffd900}
+.bg-pink {background-color: #fd00be}
+.bg-purple {background-color: #9d60ff}
+.bg-lightred {background-color: #ff3c00}
+.bg-darkblue {background-color: #0004ff}
+.bg-darkgreen {background-color: #106300}

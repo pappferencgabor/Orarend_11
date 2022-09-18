@@ -1,0 +1,296 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="orarend.css">
+</head>
+
+<body>
+    <div class="container-xxl">
+        <table class="table-bordered">
+            <thead>
+                <tr class="bg-white">
+                    <th>Csengetés</th>
+                    <th colspan="2">Hétfő</th>
+                    <th colspan="3">Kedd</th>
+                    <th colspan="2">Szerda</th>
+                    <th colspan="3">Csütörtök</th>
+                    <th colspan="2">Péntek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--ELSŐ ÓRA-->
+                <tr>
+                    <!--HÉTFŐ-->
+                    <td class="align-middle">8:30 <br> - <br> 9:10</td>
+                    <td rowspan="3">
+                        <span class="bg-lightred tanora">Hálózat</span>
+                        <div class="terem">CNC-2</div>
+                        <div class="tanar">Szegedi Imre</div>
+                    </td>
+                    <td rowspan="2">
+                        <span class="bg-yellow tanora">Szakmai Angol</span>
+                        <div class="terem">CAD1</div>
+                        <div class="tanar">TNM</div>
+                    </td>
+
+                    <!--KEDD-->
+                    <td>
+                        <span class="bg-darkgreen tanora">Angol</span>
+                        <div class="terem">25.</div>
+                        <div class="tanar">Veres Ibolya</div>
+                    </td>
+                    <td>
+                        <span class="bg-darkblue tanora ">Angol</span>
+                        <div class="terem">29.</div>
+                        <div class="tanar">Zétényi Attila Gyula</div>
+                    </td>
+                    <td>
+                        <span class="bg-pink tanora ">Német</span>
+                        <div class="terem">84.</div>
+                        <div class="tanar">NyÜCs</div>
+                    </td>
+
+                    <!--SZERDA-->
+                    <td>
+                        <span class="bg-yellow tanora ">Szakmai Angol</span>
+                        <div class="terem">52.</div>
+                        <div class="tanar">TNM</div>
+                    </td>
+                    <td rowspan="4">
+                        <span class="bg-orange tanora ">Asztali <br> alkalmazások <br> fejlesztése</span>
+                        <div class="terem">CAD2</div>
+                        <div class="tanar">Hagymási Gyula</div>
+                    </td>
+
+                    <!--CSÜTÖRTÖK-->
+                    <td rowspan="2">
+                        <span class="bg-darkgreen tanora">Angol</span>
+                        <div class="terem">52.</div>
+                        <div class="tanar">Veres Ibolya</div>
+                    </td>
+                    <td rowspan="2">
+                        <span class="bg-darkblue tanora ">Angol</span>
+                        <div class="terem">A4</div>
+                        <div class="tanar">Zétényi Attila Gyula</div>
+                    </td>
+                    <td rowspan="2">
+                        <span class="bg-pink tanora ">Német</span>
+                        <div class="terem">86.</div>
+                        <div class="tanar">NyÜCs</div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td rowspan="2">
+                        <span class="bg-danger tanora">Matematika</span>
+                        <div class="terem">24.</div>
+                        <div class="tanar">Kissné Simon Mária</div>
+                    </td>
+                    <td rowspan="2">
+                        <span class="bg-danger tanora">Matematika</span>
+                        <div class="terem">22.</div>
+                        <div class="tanar">Erdősi Gábor</div>
+                    </td>
+                </tr>
+
+                <!--MÁSODIK ÓRA-->
+                <tr>
+                    <td class="align-middle">9:20 <br> - <br> 10:00</td>
+                    <!--KEDD-->
+                    <td colspan="3">
+                        <span class="bg-info tanora ">Történelem</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Pappné Lepp Éva</div>
+                    </td>
+
+                    <!--SZERDA-->
+                    <td rowspan="3">
+                        <span class="bg-lightred tanora ">Hálózat</span>
+                        <div class="terem">52.</div>
+                        <div class="tanar">Szegedi Imre</div>
+                    </td>
+                </tr>
+
+                <!--HARMADIK ÓRA-->
+                <tr>
+                    <td class="align-middle">10:10 <br> - <br> 10:50</td>
+                    <!--HÉTFŐ-->
+                    <td rowspan="3">
+                        <span class="bg-sky tanora ">Webprog.</span>
+                        <div class="terem">CAD1</div>
+                        <div class="tanar">Hagymási Gyula</div>
+                    </td>
+
+                    <!--KEDD-->
+                    <td colspan="3">
+                        <span class="bg-dark tanora ">Testnevelés</span>
+                        <div class="terem">Tornaterem</div>
+                        <div class="tanar">Fancsali László</div>
+                    </td>
+
+                    <!--CSÜTÖRTÖK-->
+                    <td colspan="3" rowspan="2">
+                        <span class="bg-primary tanora ">Irodalom</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Szűcs Mariann</div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td colspan="2">
+                        <span class="bg-warning tanora ">Fizika</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Szőllősi Irén</div>
+                    </td>
+                </tr>
+
+                <!--NEGYEDIK ÓRA-->
+                <tr>
+                    <td class="align-middle">11:05 <br> - <br> 11:45</td>
+                    <!--HÉTFŐ-->
+                    <td>
+                        <span class="bg-yellow tanora ">Szakmai Angol</span>
+                        <div class="terem">12.</div>
+                        <div class="tanar">TNM</div>
+                    </td>
+
+                    <!--KEDD-->
+                    <td>
+                        <span class="bg-darkgreen tanora">Angol</span>
+                        <div class="terem">21.</div>
+                        <div class="tanar">Veres Ibolya</div>
+                    </td>
+                    <td>
+                        <span class="bg-darkblue tanora ">Angol</span>
+                        <div class="terem">57.</div>
+                        <div class="tanar">Zétényi Attila Gyula</div>
+                    </td>
+                    <td>
+                        <span class="bg-pink tanora ">Német</span>
+                        <div class="terem">85.</div>
+                        <div class="tanar">NyÜCs</div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td colspan="2">
+                        <span class="bg-primary tanora ">Irodalom</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Szűcs Mariann</div>
+                    </td>
+                </tr>
+
+                <!--ÖTÖDIK ÓRA-->
+                <tr>
+                    <td class="align-middle">11:55 <br> - <br> 12:35</td>
+                    <!--HÉTFŐ-->
+                    <td rowspan="3">
+                        <span class="bg-green tanora ">IKT</span>
+                        <div class="terem">CAD2</div>
+                        <div class="tanar">MM</div>
+                    </td>
+
+                    <!--KEDD-->
+                    <td colspan="3">
+                        <span class="bg-warning tanora ">Fizika</span>
+                        <div class="terem">19.</div>
+                        <div class="tanar">Szőllősi Irén</div>
+                    </td>
+
+                    <!--SZERDA-->
+                    <td rowspan="3">
+                        <span class="bg-purple tanora ">Adatbázis</span>
+                        <div class="terem">52.</div>
+                        <div class="tanar">Kertész Jánosné</div>
+                    </td>
+                    <td rowspan="3">
+                        <span class="bg-green tanora ">IKT</span>
+                        <div class="terem">CAD2</div>
+                        <div class="tanar">Rácz Csaba</div>
+                    </td>
+
+                    <!--CSÜTÖRTÖK-->
+                    <td colspan="3">
+                        <span class="bg-info tanora ">Osztályfőnöki</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Pappné Lepp Éva</div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td colspan="3">
+                        <span class="bg-dark tanora ">Testnevelés</span>
+                        <div class="terem">Tornaterem</div>
+                        <div class="tanar">Fancsali László</div>
+                    </td>
+                </tr>
+
+                <!--HATODIK ÓRA-->
+                <tr>
+                    <td class="align-middle">12:45 <br> - <br> 13:25</td>
+                    <!--HÉTFŐ-->
+                    <td rowspan="2">
+                        <span class="bg-purple tanora ">Adatbázis</span>
+                        <div class="terem">CAD1</div>
+                        <div class="tanar">Péter Miklós</div>
+                    </td>
+
+                    <!--KEDD-->
+                    <td rowspan="2" class="egyik">
+                        <span class="bg-danger tanora ">Matematika</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Kissné Simon Mária</div>
+                    </td>
+
+                    <td rowspan="2" class="masik" colspan="2">
+                        <span class="bg-danger tanora ">Matematika</span>
+                        <div class="terem">25.</div>
+                        <div class="tanar">Erdősi Gábor</div>
+                    </td>
+
+                    <!--CSÜTÖRTÖK-->
+                    <td colspan="3">
+                        <span class="bg-dark tanora ">Testnevelés</span>
+                        <div class="terem">Tornaterem</div>
+                        <div class="tanar">Fancsali László</div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td colspan="3">
+                        <span class="bg-secondary tanora ">Magyar</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Szűcs Mariann</div>
+                    </td>
+                </tr>
+
+                <!--HETEDIK ÓRA-->
+                <tr>
+                    <td class="align-middle">13:30 <br> - <br> 14:10</td>
+                    <!--CSÜTÖRTÖK-->
+                    <td colspan="3">
+                        <span></span>
+                        <div class="terem"></div>
+                        <div class="tanar"></div>
+                    </td>
+
+                    <!--PÉNTEK-->
+                    <td colspan="3">
+                        <span class="bg-info tanora ">Történelem</span>
+                        <div class="terem">33.</div>
+                        <div class="tanar">Pappné Lepp Éva</div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="13" style="text-align: center;">Mechwart András Gépipari és Informatikai Technikum</th>
+            </tfoot>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
